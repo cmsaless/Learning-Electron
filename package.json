@@ -1,0 +1,26 @@
+{
+  "name": "learning-electron",
+  "version": "1.0.0",
+  "description": "Learning-Electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmsaless/Learning-Electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmsaless/Learning-Electron/issues"
+  },
+  "homepage": "https://github.com/cmsaless/Learning-Electron#readme",
+  "devDependencies": {
+    "electron": "^6.0.12"
+  },
+  "dependencies": {
+    "electron-store": "^5.0.0"
+  }
+}
