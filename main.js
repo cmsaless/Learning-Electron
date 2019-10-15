@@ -2,6 +2,8 @@ const { app, ipcMain } = require('electron')
 const AppWindow = require('./AppWindow');
 const DataStore = require('./DataStore')
 
+require('electron-reload')(__dirname);
+
 const todosData = new DataStore({name: 'Todos Main'});
 
 function main() {
