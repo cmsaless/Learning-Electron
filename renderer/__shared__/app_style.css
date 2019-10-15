@@ -1,0 +1,17 @@
+body {
+    font: caption;
+}
+
+h1 {
+    color: cyan;   
+}
+
+li {
+    cursor: pointer;
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+
+li:hover {
+    border: 2px solid red;
+}
